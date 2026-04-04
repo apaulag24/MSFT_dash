@@ -8,12 +8,26 @@ Este proyecto es una aplicación web interactiva desarrollada con **Dash** y **P
 ## Impacto del Negocio
 [Aquí explica qué se logra con tu app. Ejemplo: "Este dashboard permite reducir la incertidumbre al visualizar tendencias históricas y calcular retornos, facilitando el análisis técnico para portafolios de inversión."]
 
-## Cómo ejecutar la aplicación (Paso a Paso)
+## Paso a Paso para ejecutar la aplicación
 
-Sigue estos pasos para ejecutar el dashboard localmente:
+Siga estos pasos para ejecutar el dashboard localmente:
 
 ### 0. Requisitos Previos
-Asegúrate de tener instalado **Python 3.9+** y un gestor de paquetes como `pip`.
+Asegúrese de tener instalado **Python 3.9+** y un gestor de paquetes como `pip`.
+Se recomienda usar un entorno virtual para aislar las librerías del proyecto y evitar conflictos de versiones. Ejecute los siguientes comandos en su terminal:
+
+```
+## 0.1 Crear el entorno virtual
+
+python -m venv env
+
+## 0.2 Activación del entorno virtual en Windows (Git Bash)
+
+source env/Scripts/activate
+
+### en Windows (PowerShell)
+.\env\Scripts\Activate.ps1
+```
 
 ### 1. Clonar el repositorio
 ```bash
@@ -22,7 +36,7 @@ cd MSFT_dash
 ```
 
 ### 2. Instalar dependencias
-Se recomienda usar un entorno virtual. Instale las librerías necesarias con:
+Se recomienda usar un entorno virtual para dash. Instale las librerías necesarias con:
 
 ```
 pip install -r requirements.txt
@@ -30,7 +44,7 @@ pip install -r requirements.txt
 
 ### 3. Descarga de datos
 
-Para obtener los datos mas recientes de Yahoo Finance, ejecuta el script de descarga:
+Para obtener los datos mas recientes de Yahoo Finance, ejecute el siguiente script de descarga:
 
 ```
 python data/get_data.py
@@ -46,13 +60,13 @@ python app.py
 
 ### 5. Acceda al Dashboard
 
-Una vex el servidor se esté ejecuntando, abra el navegador y acceda a: 
+Una vez se esté ejecutando el servidor, abra el navegador y acceda a: 
 
 ```
 http://127.0.0.1:8050/
 ```
 
-Equipo de Desarrollo:
+### Equipo de Desarrollo:
 
 * Carlos - [linkedin]- [github]
 
