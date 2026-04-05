@@ -86,5 +86,5 @@ Una vez que el terminal indique que el servidor está activo, abra su navegador 
 
 ## Equipo de Desarrollo
 
-  * **Carlos** -  [GitHub](https://github.com/romeromendozacarlosisaac-pixel)
-  * **Paula Gomez Vargas** -  [GitHub](https://www.google.com/search?q=https://github.com/apaulag24)
+  * **Carlos Romero Mendoza** -  [GitHub](https://github.com/romeromendozacarlosisaac-pixel)
+  * **Paula Gomez Vargas** - [LinkedIn](https://www.linkedin.com/in/paula-gómez-b0a756360?utm_source=share_via&utm_content=profile&utm_medium=member_android) | [GitHub](https://www.google.com/search?q=https://github.com/apaulag24)
