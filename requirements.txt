@@ -19,6 +19,7 @@ contourpy==1.1.0
 curl_cffi==0.13.0
 cycler==0.11.0
 dash==4.1.0
+dash-bootstrap-components==2.0.4
 debugpy==1.6.7.post1
 decorator==5.1.1
 distinctipy==1.2.2
@@ -84,8 +85,9 @@ numpy==1.25.2
 oauthlib==3.2.2
 opt-einsum==3.3.0
 packaging==23.1
-pandas==2.1.0
+pandas==2.3.3
 parso==0.8.3
+patsy==1.0.2
 peewee==4.0.4
 pickleshare==0.7.5
 Pillow==10.0.0
@@ -145,6 +147,7 @@ sphinxcontrib-qthelp==1.0.6
 sphinxcontrib-serializinghtml==1.1.9
 SQLAlchemy==2.0.20
 stack-data==0.6.2
+statsmodels==0.14.6
 tabulate==0.9.0
 tensorboard==2.10.1
 tensorboard-data-server==0.6.1
@@ -164,7 +167,7 @@ uc-micro-py==1.0.2
 urllib3==1.26.16
 wcwidth==0.2.6
 websockets==15.0.1
-Werkzeug==2.3.7
+Werkzeug==3.1.8
 wrapt==1.15.0
 yfinance==1.2.0
 zipp==3.16.2
