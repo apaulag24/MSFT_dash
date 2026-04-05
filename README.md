@@ -21,35 +21,27 @@ La implementación de esta herramienta permite:
 
 ## Paso a Paso para ejecutar la aplicación
 
-Siga estos pasos para ejecutar el dashboard localmente:
+Siga estos pasos para ejecutar el dashboard localmente utilizando **Anaconda** o **Miniconda**:
 
-### 0\. Requisitos Previos
+### 0. Requisitos Previos
+Asegúrese de tener instalado [Conda](https://docs.anaconda.com/miniconda/) en su sistema.
 
-Asegúrese de tener instalado **Python 3.9+** y el gestor de paquetes `pip`.
-
-Se recomienda usar un entorno virtual para aislar las librerías del proyecto y evitar conflictos de versiones. Ejecute los siguientes comandos en su terminal:
-
-#### 0.1 Crear el entorno virtual
-
+#### 0.1 Crear el entorno virtual con Conda
+Abra su terminal (Git Bash o Anaconda Prompt) y ejecute:
 ```bash
-python -m venv env
+conda create -n msft_env python=3.10 -y
 ```
 
 #### 0.2 Activación del entorno virtual
 
-  * **En Windows (Git Bash):**
-    ```bash
-    source env/Scripts/activate
-    ```
-  * **En Windows (PowerShell):**
-    ```powershell
-    .\env\Scripts\Activate.ps1
-    ```
+```bash
+conda activate msft_env
+```
 
 ### 1\. Clonar el repositorio
 
 ```bash
-git clone https://github.com/apaulag24/MSFT_dash.git
+git clone [https://github.com/apaulag24/MSFT_dash.git](https://github.com/apaulag24/MSFT_dash.git)
 cd MSFT_dash
 ```
 
