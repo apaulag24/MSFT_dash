@@ -289,6 +289,7 @@ def update_graphs(col, years):
     fig3 = go.Figure(go.Scatter(x=filtered.index, y=filtered['Close'], fill='tozeroy', line=dict(color=colors['luxury']))).update_layout(**layout_base, title="Precio Cierre", height=300)
     
     return fig1, fig2, fig3
+server = app.server
 
 if __name__ == '__main__':
     app.run(debug=True)
