@@ -74,6 +74,10 @@ python app.py
 Una vez que el terminal indique que el servidor está activo, abra su navegador y acceda a:
 **[http://127.0.0.1:8050/](http://127.0.0.1:8050/)**
 
+
+## Link de acceso: 
+
+https://msftdash-production.up.railway.app/ 
 -----
 
 ## Equipo de Desarrollo
